@@ -1,0 +1,40 @@
+.body {
+  position: absolute;
+  margin: 0;
+}
+
+.border {
+  background: 3px #330099;
+  margin: 0;
+  top:0;
+}
+.header {
+  position: relative;
+  justify-content: space-between;
+  background: url(img/img background.svg)
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  margin: 48px 130px 41px;
+}
+
+.menu__btn {
+  position: relative;
+  justify-content: flex-end;
+  width: 180px;
+  height: 50px;
+  background: #330099;
+  border-radius: 50px;
+  font: 20px/24px montserratextrabold, helvetica, sans-serif;
+  color: #fff;
+}
+
+.menu__item {
+  display: flex;
+  text-align: center;
+  margin: 15px 43px 15px 0;
+  font: 20px montserratextrabold, helvetica, sans-serif;
+  color: #585858;
+  text-decoration: none;
+}
