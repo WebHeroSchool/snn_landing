@@ -4,19 +4,15 @@
 }
 
 .border {
-  background: 3px #330099;
+  display: flex;
   margin: 0;
-  top:0;
+  background: 3px #330099;
 }
-.header {
-  position: relative;
-  justify-content: space-between;
-  background: url(img/img background.svg)
-}
+
 .menu {
   display: flex;
   justify-content: flex-end;
-  margin: 48px 130px 41px;
+  margin: 23px 123px 25px;
 }
 
 .menu__btn {
@@ -34,7 +30,116 @@
   display: flex;
   text-align: center;
   margin: 15px 43px 15px 0;
-  font: 20px montserratextrabold, helvetica, sans-serif;
+  font: 18px/24px montserratbold, helvetica, sans-serif;
   color: #585858;
   text-decoration: none;
 }
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  height: 479px;
+  background: no-repeat url(img/title.svg)
+}
+
+.header__title {
+  position: absolute;
+  text-align: right;
+  margin: 148px 130px 232px 51%;
+  font: 40px/49px montserratblack, helvetica, sans-serif;
+  color: #330099;
+}
+
+.header__subtitle {
+  position: absolute;
+  text-align: right;
+  margin: 256px 128px 150px 63%;
+  font: 30px/37px montserratbold, helvetica, sans-serif;
+  color: #fff;
+}
+
+.advantages {
+  position: relative;
+  text-align:center;
+}
+
+.advantages__title {
+  margin: 90px 0 0 0;
+  font: 30px/37px montserratblack, helvetica, sans-serif;
+  color: #585858;
+  text-align: top;
+}
+
+.advantages__wrapper {
+  display: flex;
+  width: 82%;
+  margin: auto;
+}
+
+.advantages__item {
+  position: relative;
+  justify-content: center;
+  color: #585858;
+}
+.advantages__item-one {
+  margin-top: 58px;
+  width: 319px;
+  height: 319px;
+}
+
+.advantages__item_title-one {
+  margin: 33px 0 0 0;
+  font: 31px/37px montserratextrabold, helvetica, sans-serif;
+}
+
+.advantages__item_subtitle-one {
+  margin-top: 10px;
+  font: 20px/24px montserratmedium, helvetica, sans-serif;
+}
+
+.advantages__item-two {
+  margin-top: 52px;
+  margin-left: 111px;
+  width: 319px;
+  height: 319px;
+}
+
+.advantages__item_title-two {
+  margin: 23px 0 0 0;
+  font: 31px/37px montserratextrabold, helvetica, sans-serif;
+}
+
+.advantages__item_subtitle-two {
+  margin-top: 27px;
+  font: 20px/24px montserratmedium, helvetica, sans-serif;
+}
+
+.advantages__item-thre {
+  margin-top: 52px;
+  margin-left: 86px;
+  width: 345px;
+  height: 319px;
+}
+
+.advantages__item_title-thre {
+  margin: 25px 0 0 0;
+  font: 31px/37px montserratextrabold, helvetica, sans-serif;
+}
+
+.advantages__item_subtitle-thre {
+  margin-top: 10px;
+  font: 20px/24px montserratmedium, helvetica, sans-serif;
+}
+
+.main__button {
+  margin-top: 88px;
+  width: 345px;
+  height: 65px;
+  background: #330099;
+  border-radius: 50px;
+  font: 20px/24px montserratextrabold, helvetica, sans-serif;
+  color: #fff;
+}
+
+.skill
