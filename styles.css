@@ -142,4 +142,39 @@
   color: #fff;
 }
 
-.skill
+.skill {
+  position: relative;
+  margin: auto;
+  color: #585858;
+}
+
+.skill__title {
+  text-align: center;
+  margin-top: 180px;
+  font: 30px/37px montserratblack, helvetica, sans-serif;
+}
+
+.skill__item {
+  display: flex;
+  margin: 50px 38% 80px 130px;
+}
+
+.skill__item_right {
+  display: flex;
+  margin: 50px 130px 80px 38%;
+  text-align: right;
+}
+
+.skill__text_up {
+  font: 30px/37px montserratsemibold, helvetica, sans-serif;
+  margin-left: 26px;
+}
+
+.skill__text_bottom {
+  font: 20px/24px montserratmedium, helvetica, sans-serif;
+  margin-left: 26px;
+}
+
+.skill__item_icon {
+justify-content: top;
+}
