@@ -175,6 +175,55 @@
   margin-left: 26px;
 }
 
-.skill__item_icon {
-justify-content: top;
+.form {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  background: rgba(51, 0, 153, 0.12);
+}
+
+.form__title {
+  margin: 60px 0 36px 0;
+  font: 30px/37px montserratblack, helvetica, sans-serif;
+  color: #585858;
+}
+
+.form__subtitle {
+  font: 20px/24px montserratmedium, helvetica, sans-serif;
+  margin: 49px 520px 36px 520px;
+  color: #585858;
+}
+
+.form__container {
+  display: inline-block;
+  text-align: center;
+}
+
+.form__line {
+  text-align: justify;
+  margin: 10px 570px;
+  padding-left: 40px;
+  width: 300px;
+  height: 70px;
+  border: 1px solid #e9e;
+  border-radius: 50px;
+  font: 20px/24px montserratsemibold, helvetica, sans-serif;
+  color: #585858;
+}
+
+.form__btn {
+  margin: 36px 570px 60px;
+  width: 300px;
+  height: 70px;
+  left: 570px;
+  top: 3020px;
+  background: #4ab272;
+  border-radius: 50px;
+  font: 20px/24px montserratsemibold, helvetica, sans-serif;
+  color: #fff;
+}
+
+.footer {
+  position: relative;
+  
 }
