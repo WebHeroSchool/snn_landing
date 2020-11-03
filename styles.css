@@ -1,18 +1,18 @@
-.body {
-  position: absolute;
+body {
   margin: 0;
-}
-
-.border {
-  display: flex;
-  margin: 0;
-  background: 3px #330099;
 }
 
 .menu {
+  border-top: 3px solid #330099;
+  border-bottom: 3px solid #330099;
+}
+
+.menu__wrap {
   display: flex;
   justify-content: flex-end;
-  margin: 23px 123px 25px;
+  margin: 0 auto;
+  padding: 31px 20px 23px 20px;
+  max-width: 1180px;
 }
 
 .menu__btn {
@@ -22,6 +22,7 @@
   height: 50px;
   background: #330099;
   border-radius: 50px;
+  border: none;
   font: 20px/24px montserratextrabold, helvetica, sans-serif;
   color: #fff;
 }
@@ -30,7 +31,7 @@
   display: flex;
   text-align: center;
   margin: 15px 43px 15px 0;
-  font: 18px/24px montserratbold, helvetica, sans-serif;
+  font: 20px/24px gilroy, helvetica, sans-serif;
   color: #585858;
   text-decoration: none;
 }
