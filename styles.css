@@ -7,6 +7,10 @@ body {
   border-bottom: 3px solid #330099;
 }
 
+.menu__mobile-button {
+  display: none;
+}
+
 .menu__wrap {
   display: flex;
   justify-content: flex-end;
