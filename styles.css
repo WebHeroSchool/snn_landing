@@ -43,15 +43,16 @@ body {
 .header__container {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin: 0 auto;
   height: 479px;
-  background: no-repeat url(img/title.svg)
+  background: no-repeat url(img/title.svg);
+  background-size: 100%;
 }
 
 .header__title {
   position: absolute;
   text-align: right;
-  margin: 148px 130px 232px 51%;
+  padding: 150px 130px 232px 53%;
   font: 40px/49px montserratblack, helvetica, sans-serif;
   color: #330099;
 }
@@ -59,7 +60,7 @@ body {
 .header__subtitle {
   position: absolute;
   text-align: right;
-  margin: 256px 128px 150px 63%;
+  padding: 258px 130px 150px 67%;
   font: 30px/37px montserratbold, helvetica, sans-serif;
   color: #fff;
 }
