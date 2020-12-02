@@ -329,26 +329,24 @@
   }
 
   .advantages__item-one {
-    padding: 40px 0 0 0;
+    padding: 32px 0 0 0;
     margin: auto;
     height: 195px;
     width: 255px;
   }
   
   .advantages__item_title-one {
-    margin: 0;
-    padding: 8px 50px 0 50px;
+    padding: 3px 50px 0 50px;
     font: 16px/20px montserratextrabold, helvetica, sans-serif;
   }
   
   .advantages__item_subtitle-one {
-    margin: 0;
     padding: 3px 0 0 0;
     font: 16px/20px montserratmedium, helvetica, sans-serif;
   }
   
   .advantages__item-two {
-    padding: 35px 0 0 0;
+    padding: 42px 0 0 0;
     margin: auto;
     height: 165px;
     width: 255px;
@@ -356,7 +354,7 @@
   
   .advantages__item_title-two {
     margin: 0;
-    padding-top: 5px;
+    padding-top: 2px;
     font: 16px/20px montserratextrabold, helvetica, sans-serif;
   }
   
@@ -375,7 +373,7 @@
   
   .advantages__item_title-thre {
     margin: 0;
-    padding: 5px 50px 0 50px;
+    padding: 0 50px 0 50px;
     font: 16px/20px montserratextrabold, helvetica, sans-serif;
   }
   
@@ -461,12 +459,12 @@
   }
   
   .form__icon {
-    padding: 0 0 27px 0;
+    padding: 0 0 23px 0;
   }
   
   .form__subtitle {
     padding: 0 120px 20px 120px;
-    font: 14px/17px montserratmedium, helvetica, sans-serif;
+    font: 16px/20px montserratmedium, helvetica, sans-serif;
   }
 
   .form__line {
@@ -487,10 +485,11 @@
   
   .footer__title {
     font: 14px/17px robotoregular;
+    padding: 32px 70px 0px 71px;
   }
   
   .footer__container {
-    padding-top: 15px;
+    padding-top: 14px;
   }
   
   .footer__icon {
@@ -505,7 +504,7 @@
   }
   
   .footer__text {
-    padding: 47px 0 32px 0;  
+    padding: 41px 0 32px 0;  
     font: 14px/17px robotoregular;
   }
 
@@ -567,13 +566,8 @@
     font: 20px/25px montserratblack, helvetica, sans-serif;
   }
 
-  .header__subtitle_1 {
+  .header__subtitle {
     padding: 75px 35px 118px 105px;
-    font: 16px/20px montserratbold, helvetica, sans-serif;
-  }
-
-  .header__subtitle_2 {
-    padding: 95px 28px 118px 115px;
     font: 16px/20px montserratbold, helvetica, sans-serif;
   }
 
@@ -581,96 +575,39 @@
     width: 100%;
   }
 
-  .advantages__wrapper {
-    position: rabelative;
-    margin: 0 auto;
-  }
-
   .advantages__title {
     padding: 47px 60px 0 55px;
     margin: 0 auto;
     font: 16px/20px montserratblack, helvetica, sans-serif;
   }
-
-  .advantages__image_icon {
-    position: relative;
-    padding: 33px 140px 0 131px;
-    width: 55px;
-    height: 55px;
-  }
-
-  .advantages__item-one {
-    justify-content: space-between;
-    padding: 0;
-  }
-
-  .advantages__item_title-one {
-    margin: 0 auto;
-    padding: 0 73px 0 67px;
-    font: 16px/20px montserratblack, helvetica, sans-serif;
-  }
-
-  .advantages__item_subtitle-one {
-    margin: 0 auto;
-    padding: 5px 30px 0 25px;
-    font: 16px/20px montserratmedium, helvetica, sans-serif;
-  }
-
-  .advantages__item-two {
-    justify-content: space-between;
-    margin: 0 auto;
-    padding-top: 235px;
-    left: -320px;
-    height: 256px;
-  }
-
-  .advantages__item_title-two {
-    margin: 0 auto;
-    padding: 0 73px 0 67px;
-    font: 16px/20px montserratblack, helvetica, sans-serif
-  }
-
-  .advantages__item_subtitle-two {
-    margin: 0 auto;
-    padding: 0 30px 0 34px;
-    font: 16px/20px montserratmedium, helvetica, sans-serif;
-  }
-
-  .advantages__item-thre {
-    justify-content: space-between;
-    margin: 0 auto;
-    padding-top: 431px;
-    left: -640px;
-    height: 256px;
-  }
-
-  .advantages__item_title-thre {
-    margin: 0 auto;
-    padding: 0 113px 0 111px;
-    font: 16px/20px montserratblack, helvetica, sans-serif
-  }
-
-  .advantages__item_subtitle-thre {
-    margin: 0 auto;
-    padding: 5px 50px 0 50px;
-    width: 204px;
-    height: 120px;
-    font: 16px/20px montserratmedium, helvetica, sans-serif;
-  }
-
-  .main__button {
-    margin: 0 auto;
-    width: 260px;
-    height: 54px;
-    font: 16px/20px montserratextrabold, helvetica, sans-serif;
-  }
-
   
+  .main__button {
+    margin: 51px 0 45px 30px;
+  }
+  
+  .form__subtitle {
+    padding: 0 42px 16px 43px;
+  }
+
+  .form__line {
+    margin: 0 31px 9px 29px;
+    padding: 0 20px;
+    width: 220px;
+    height: 50px;
+  }
+  
+  .form__btn {
+    margin: 20px 31px 29px 29px;
+    width: 260px;
+    height: 50px;
+    left: 570px;
+    font: 16px/20px montserratsemibold, helvetica, sans-serif;
+  }
+
   .skill {
     display: none;
   }
 
-  .form {
-    display: none;
-  }
+
+
 }
