@@ -58,20 +58,11 @@ body {
   color: #330099;
 }
 
-.header__subtitle_1 {
+.header__subtitle {
   position: absolute;
   text-align: right;
   margin: 0 auto;
   padding: 258px 130px 150px 963px;
-  font: 30px/37px montserratbold, helvetica, sans-serif;
-  color: #fff;
-}
-
-.header__subtitle_2 {
-  position: absolute;
-  text-align: right;
-  margin: 0 auto;
-  padding: 295px 130px 150px 980px;
   font: 30px/37px montserratbold, helvetica, sans-serif;
   color: #fff;
 }
@@ -84,6 +75,7 @@ body {
 .advantages {
   position: relative;
   justify-content: space-between;
+  background-color: #f9f9f9;
 }
 
 .advantages__title {
@@ -100,7 +92,9 @@ body {
 }
 
 .advantages__item-one {
-  padding: 58px 105px 0 50px;
+  padding: 58px 112px 0 55px;
+  height: 320px;
+  width: 320px;
 }
 
 .advantages__item_title-one {
@@ -118,14 +112,14 @@ body {
 }
 
 .advantages__item-two {
-  padding: 52px 88px 0 0;
+  padding: 52px 85px 0 0;
   height: 320px;
   width: 320px;
 }
 
 .advantages__item_title-two {
   margin: 0;
-  padding-top: 23px;
+  padding-top: 28px;
   font: 31px/37px montserratextrabold, helvetica, sans-serif;
   color: #585858;
 }
@@ -138,7 +132,9 @@ body {
 }
 
 .advantages__item-thre {
-  padding: 52px 48px 0 0;
+  padding: 52px 30px 0 0;
+  height: 320px;
+  width: 345px;
 
 }
 
@@ -157,14 +153,15 @@ body {
 }
 
 .main__button {
-  margin: 95px 40% 0 36%;
+  margin: 87px 430px 0 473px;
   text-align: center;
   width: 345px;
   height: 65px;
   background: #330099;
   border-radius: 50px;
+  border: none;
   font: 20px/24px montserratextrabold, helvetica, sans-serif;
-  color: #fff;
+  color: #ffda45;
 }
 
 .skill {
@@ -283,6 +280,7 @@ body {
   border-radius: 50px;
   font: 15px/18px montserratsemibold, helvetica, sans-serif;
   color: #585858;
+  outline: none;
 }
 
 .form__btn {
@@ -296,6 +294,7 @@ body {
   font: 20px/24px montserratsemibold, helvetica, sans-serif;
   color: #fff;
   border: none;
+  outline: none;
 }
 
 .footer {
