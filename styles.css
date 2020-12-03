@@ -164,6 +164,11 @@ body {
   color: #ffda45;
 }
 
+
+.all {
+  display: none;
+}
+
 .skill {
   margin: 0 auto;
   color: #585858;

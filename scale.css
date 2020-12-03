@@ -15,6 +15,10 @@
     position: absolute;
     padding: 0 100px 0 1100px;
   }
+  
+  .all {
+    display: none;
+  }
 
 }
 
@@ -23,6 +27,10 @@
   .skill__item_icon-right {
     position: absolute;
     padding: 0 100px 0 1060px;
+  }
+  
+  .all {
+    display: none;
   }
 
 }
@@ -69,6 +77,10 @@
     padding: 50px 88px 0 0;
     height: 320px;
     width: 360px;
+  }
+  
+  .all {
+    display: none;
   }
 
   .form__title {
@@ -117,6 +129,10 @@
   .container {
     margin: auto;
     width: 100%;
+  }
+  
+  .all {
+    display: none;
   }
 
   .skill__item_icon-right {
@@ -167,6 +183,11 @@
     font: 30px/37px montserratbold, helvetica, sans-serif;
   }
 
+  
+  .all {
+    display: none;
+  }
+
   .skill__item_icon-right {
     position: absolute;
     padding: 0 50px 0 1000px;
@@ -215,6 +236,11 @@
     padding: 50px 0 0 0;
     height: 320px;
     width: 360px;
+  }
+
+  
+  .all {
+    display: none;
   }
 
   .skill__title {
@@ -508,6 +534,10 @@
     font: 14px/17px robotoregular;
   }
 
+  .all {
+    display: none;
+  }
+
 }
 
 @media (max-width: 320px) {
@@ -604,10 +634,10 @@
     font: 16px/20px montserratsemibold, helvetica, sans-serif;
   }
 
-  .skill {
+  .skill__item_1,
+  .skill__item_2,
+  .skill__item_3 {
     display: none;
   }
-
-
 
 }
