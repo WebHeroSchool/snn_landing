@@ -238,11 +238,6 @@
     width: 360px;
   }
 
-  
-  .all {
-    display: none;
-  }
-
   .skill__title {
     padding-top: 100px;
   }
@@ -640,7 +635,116 @@
     display: none;
   }
 
-  .skill {
-    display: none;
+  .slider {
+    width: 227px;
+    height: 341px;
+    overflow: hidden;
   }
+
+  .midls {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .navigation {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+
+  .bar {
+    height: 8px;
+    width: 8px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: #fff;
+    opacity: .5;
+    border-radius: 10px;
+    border-color: #777;
+    transition: all .4s ease;
+  }
+
+  .bar:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    background-color: #ffda45;
+  }
+
+  input[name="skl"] {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .skill {
+    margin: 0 auto;
+    color: #585858;
+    position: relative;
+    width: 227px;
+    height: 441px;
+  }
+  
+  .slide__item_1 {
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 25% 80px 58px;
+  }
+  
+  .slide__text_up_1 {
+    font: 30px/37px montserratsemibold, helvetica, sans-serif;
+    padding: 2px 25px 8px 26px;
+    margin: 0 auto;
+  }
+  
+  .slide__text_bottom_1 {
+    font: 20px/24px montserratmedium, helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 0 220px 0 25px;
+  }
+  
+  .slide__item_icon-right {
+    position: absolute;
+    padding: 0 9% 0 1200px;
+  }
+  
+  .slide__item_2 {
+    display: flex;
+    margin: 0;
+    text-align: right;
+  }
+  
+  .slide__text_up_2 {
+    font: 30px/37px montserratsemibold, helvetica, sans-serif;
+    padding: 20px 20% 8px 480px;
+    margin: 0 auto;
+  }
+  
+  .slide__text_bottom_2 {
+    font: 20px/24px montserratmedium, helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 0 20% 0 590px;
+  }
+  
+  .slide__item_3 {
+    display: flex;
+    margin: 0 auto;
+    padding: 106px 420px 89px 58px;
+  }
+  
+  .slide__text_up_3 {
+    font: 30px/37px montserratsemibold, helvetica, sans-serif;
+    padding: 8px 25px 8px 26px;
+    margin: 0 auto;
+  }
+  
+  .slide__text_bottom_3 {
+    font: 20px/24px montserratmedium, helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 0 220px 0 25px;
+  }
+  
+
 }
