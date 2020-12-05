@@ -204,12 +204,20 @@
     font: 25px/27px montserratblack, helvetica, sans-serif;
   }
 
+  .skill__item_1 {
+    padding: 47px 222px 80px 0;
+  }
+
   .skill__text_up_1 {
     font: 25px/28px montserratsemibold, helvetica, sans-serif;
   }
 
   .skill__text_up_2 {
     font: 25px/28px montserratsemibold, helvetica, sans-serif;
+  }
+
+  .skill__item_3 {
+    padding: 75px 380px 90px 0;
   }
 
   .skill__text_up_3 {
@@ -312,9 +320,7 @@
 
 }
 
-@media (max-width: 1250px) {
-
- 
+@media (max-width: 1120px) {
 
   .advantages {
     height: 580px;
@@ -481,7 +487,7 @@
   }
   
   .main__button {
-    margin: 50px 0 30px 368px;
+    margin: 50px auto;
     width: 260px;
     height: 54px;
     font: 16px/20px montserratextrabold, helvetica, sans-serif;
