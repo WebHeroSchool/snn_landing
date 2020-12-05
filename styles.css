@@ -44,7 +44,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  height: 479px;
+  height: 660px;
   background: no-repeat url(img/title.svg);
   background-size: 100%;
 }
@@ -53,7 +53,9 @@ body {
   position: absolute;
   text-align: right;
   margin: 0 auto;
-  padding: 152px 130px 232px 778px;
+  padding: 152px 0 0 1130px;
+  width: 566px;
+  height: 98px;
   font: 40px/49px montserratblack, helvetica, sans-serif;
   color: #330099;
 }
@@ -61,21 +63,23 @@ body {
 .header__subtitle {
   position: absolute;
   text-align: right;
+  width: 351px;
+  height: 74px;
   margin: 0 auto;
-  padding: 258px 130px 150px 963px;
+  padding: 258px 0 0 1340px;
   font: 30px/37px montserratbold, helvetica, sans-serif;
   color: #fff;
 }
 
 .container {
   margin: auto;
-  width: 90%;
+  width: 100%;
 }
 
 .advantages {
   position: relative;
-  justify-content: space-between;
   background-color: #f9f9f9;
+  height: 747px;
 }
 
 .advantages__title {
@@ -88,6 +92,7 @@ body {
 
 .advantages__wrapper {
   display: flex;
+  justify-content: center;
   text-align: center;
 }
 
@@ -153,7 +158,8 @@ body {
 }
 
 .main__button {
-  margin: 87px 430px 0 473px;
+  display: block;
+  margin: 87px auto;
   text-align: center;
   width: 345px;
   height: 65px;
@@ -170,79 +176,113 @@ body {
 }
 
 .skill {
+  display: block;
   margin: 0 auto;
-  color: #585858;
+  height: 953px;
 }
 
 .skill__title {
   text-align: center;
   margin: 0 auto;
-  padding-top: 180px;
+  padding-top: 90px;
   font: 30px/37px montserratblack, helvetica, sans-serif;
+  color: #585858;
+}
+
+.skill__wrapper {
+  display: block;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
 }
 
 .skill__item_1 {
   display: flex;
   margin: 0 auto;
-  padding: 50px 25% 80px 58px;
+  padding: 50px 300px 80px 0;
+  width: 800px;
+  height: 175px;
 }
 
-.skill__text {
+.skill__text_1 {
   display: block;
   justify-content: space-between;
 }
 
 .skill__text_up_1 {
-  font: 30px/37px montserratsemibold, helvetica, sans-serif;
-  padding: 2px 25px 8px 26px;
+  padding: 4px 25px 8px 26px;
   margin: 0 auto;
+  font: 30px/37px montserratsemibold, helvetica, sans-serif;
+  color: #585858;
 }
 
 .skill__text_bottom_1 {
-  font: 20px/24px montserratmedium, helvetica, sans-serif;
   margin: 0 auto;
-  padding: 0 220px 0 25px;
-}
-
-.skill__item_icon-right {
-  position: absolute;
-  padding: 0 9% 0 1200px;
+  padding: 0 150px 0 25px;
+  font: 20px/24px montserratmedium, helvetica, sans-serif;
+  color: #585858;
 }
 
 .skill__item_2 {
   display: flex;
   margin: 0;
   text-align: right;
+  width: 753px;
+  height: 175px;
+  padding-left: 432px;
+}
+
+.skill__item_icon-2 {
+  position: absolute;
+  padding-left: 780px;
+}
+
+.skill__text_2 {
+  display: block;
+  justify-content: space-between;
+  padding-top: 25px;
 }
 
 .skill__text_up_2 {
-  font: 30px/37px montserratsemibold, helvetica, sans-serif;
-  padding: 20px 20% 8px 480px;
+  padding-left: 177px;
   margin: 0 auto;
+  font: 30px/37px montserratsemibold, helvetica, sans-serif;
+  color: #585858;
 }
 
 .skill__text_bottom_2 {
-  font: 20px/24px montserratmedium, helvetica, sans-serif;
   margin: 0 auto;
-  padding: 0 20% 0 590px;
+  padding: 8px 0 0 308px;
+  font: 20px/24px montserratmedium, helvetica, sans-serif;
+  color: #585858;
 }
 
 .skill__item_3 {
   display: flex;
   margin: 0 auto;
-  padding: 106px 420px 89px 58px;
+  width: 711px;
+  height: 175px;
+  padding: 90px 420px 90px 0;
+}
+
+.skill__text_3 {
+  display: block;
+  justify-content: space-between;
+  padding-top: 10px;
 }
 
 .skill__text_up_3 {
-  font: 30px/37px montserratsemibold, helvetica, sans-serif;
-  padding: 8px 25px 8px 26px;
   margin: 0 auto;
+  padding: 0 0 8px 26px;
+  font: 30px/37px montserratsemibold, helvetica, sans-serif;
+  color: #585858;
 }
 
 .skill__text_bottom_3 {
-  font: 20px/24px montserratmedium, helvetica, sans-serif;
   margin: 0 auto;
-  padding: 0 220px 0 25px;
+  padding: 0 130px 0 25px;
+  font: 20px/24px montserratmedium, helvetica, sans-serif;
+  color: #585858;
 }
 
 .form {
@@ -253,20 +293,20 @@ body {
 }
 
 .form__title {
-  padding: 60px 600px 36px 585px;
+  padding: 60px 0 36px 0;
   margin: 0;
   font: 30px/37px montserratblack, helvetica, sans-serif;
   color: #585858;
 }
 
 .form__icon {
-  padding: 0 600px 45px 585px;
+  padding-bottom:45px;
   margin: 0;
 }
 
 .form__subtitle {
   margin: 0;
-  padding: 0 520px 34px 520px;
+  padding: 0 40% 34px 40%;
   font: 20px/23px montserratmedium, helvetica, sans-serif;
   color: #585858;
 }
@@ -310,7 +350,7 @@ body {
 }
 
 .footer__title {
-  margin: 0;
+  margin: 0 auto;
   padding-top: 60px;
   text-align: center;
   font: 20px/23px robotoregular;
